@@ -15,6 +15,7 @@
 		FBEEF86B237E01BD00D3E132 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBEEF869237E01BD00D3E132 /* LaunchScreen.storyboard */; };
 		FBEEF873237E033700D3E132 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEEF872237E033700D3E132 /* Photo.swift */; };
 		FBEEF875237E040B00D3E132 /* PhotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEEF874237E040B00D3E132 /* PhotoController.swift */; };
+		FBEEF877237E070B00D3E132 /* ThemeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEEF876237E070B00D3E132 /* ThemeHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		FBEEF86C237E01BD00D3E132 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBEEF872237E033700D3E132 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 		FBEEF874237E040B00D3E132 /* PhotoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoController.swift; sourceTree = "<group>"; };
+		FBEEF876237E070B00D3E132 /* ThemeHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				FBEEF864237E01BC00D3E132 /* Main.storyboard */,
 				FBEEF872237E033700D3E132 /* Photo.swift */,
 				FBEEF874237E040B00D3E132 /* PhotoController.swift */,
+				FBEEF876237E070B00D3E132 /* ThemeHelper.swift */,
 				FBEEF867237E01BD00D3E132 /* Assets.xcassets */,
 				FBEEF869237E01BD00D3E132 /* LaunchScreen.storyboard */,
 				FBEEF86C237E01BD00D3E132 /* Info.plist */,
@@ -147,6 +150,7 @@
 				FBEEF875237E040B00D3E132 /* PhotoController.swift in Sources */,
 				FBEEF873237E033700D3E132 /* Photo.swift in Sources */,
 				FBEEF863237E01BC00D3E132 /* ViewController.swift in Sources */,
+				FBEEF877237E070B00D3E132 /* ThemeHelper.swift in Sources */,
 				FBEEF85F237E01BC00D3E132 /* AppDelegate.swift in Sources */,
 				FBEEF861237E01BC00D3E132 /* SceneDelegate.swift in Sources */,
 			);
