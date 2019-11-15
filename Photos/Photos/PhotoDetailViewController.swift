@@ -10,8 +10,22 @@ import UIKit
 
 class PhotoDetailViewController: UIViewController {
     @IBAction func savePhoto(_ sender: Any) {
+        
+        guard let image = imageViewOutlet.image,
+            let imageData = image.pngData(),
+            let title = textFieldOutlet.text else { return }
+        
+        
+        if let photo = photo {
+            photoController?.Update(updatePhoto: photo, updateData: imageData, updateTitle: title)
+        } else {
+            photoController?.Create(newPhotoData: imageData, newPhotoTitle: title)
+        }
+        
+        navigationController?.popViewController(animated: true)
     }
     @IBAction func addPhoto(_ sender: Any) {
+        
     }
     @IBOutlet weak var imageViewOutlet: UIImageView!
     
@@ -28,14 +42,13 @@ class PhotoDetailViewController: UIViewController {
     }
     
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+ 
+      
     }
-    */
+    
 
-}
+
